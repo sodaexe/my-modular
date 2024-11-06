@@ -36,6 +36,7 @@ document.querySelector('#card').innerHTML =
     )
     .join('');
 
+// option+: utiliser forEach
 const buttons = document.querySelectorAll('.add-to-cart');
 for (let i = 0; i < buttons.length; i++) {
   const button = buttons[i];
